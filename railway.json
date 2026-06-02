@@ -5,7 +5,6 @@
     "dockerfilePath": "Dockerfile"
   },
   "deploy": {
-    "startCommand": "./new-api",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
